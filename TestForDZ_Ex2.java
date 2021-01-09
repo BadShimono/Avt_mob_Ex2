@@ -39,8 +39,8 @@ public class TestForDZ_Ex2 {
     public void Test_one()
     {
         assertElementHasText(
-                By.xpath("//*[contains(@text,'Search Wikipedia')]"),
-                "Cannot find 'Search Wikipedia' input"
+                By.xpath("//*[@resource-id='org.wikipedia:id/search_container']//*[@text='Search Wikipedia1']"),
+                "Cannot find 'Search Wikipedia'  by 'Wikiapedia'"
         );
     }
 
