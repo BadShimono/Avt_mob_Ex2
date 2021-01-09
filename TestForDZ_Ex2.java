@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.URL;
 
-public class TestForDZ {
+public class TestForDZ_Ex2 {
     private AppiumDriver driver;
     @Before
     public void setUp()throws Exception
@@ -52,7 +52,4 @@ public class TestForDZ {
                 ExpectedConditions.presenceOfElementLocated(by)
         );
     }
-
-
-
 }
